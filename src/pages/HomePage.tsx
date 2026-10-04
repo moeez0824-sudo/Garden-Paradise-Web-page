@@ -55,7 +55,7 @@ const HomePage: React.FC = () => {
       title: 'Lawn Care & Turf Management',
       tagline: 'Lush, resilient, golf-grade grass',
       description: 'Comprehensive turf health programs including seasonal aeration, organic fertilization, weed control, and sod installation.',
-      image: '/lawn-care.jpg',
+      image: `${import.meta.env.BASE_URL}lawn-care.jpg`,
       icon: Scissors,
       features: ['Core aeration & overseeding', 'Organic weed & moss treatment', 'Precision striping & edging'],
     },
@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
       title: 'Landscape Architecture & Hardscaping',
       tagline: 'Permanent stone, pathways & living zones',
       description: 'Expert construction of natural stone patios, garden walkways, retaining walls, steps, and decorative rockeries.',
-      image: '/landscape-hardscaping.jpg',
+      image: `${import.meta.env.BASE_URL}landscape-hardscaping.jpg`,
       icon: Layers,
       features: ['Natural flagstone & paver patios', 'Dry-stone retaining walls', 'Integrated garden steps & paths'],
     },
@@ -73,7 +73,7 @@ const HomePage: React.FC = () => {
       title: 'Complete Garden Maintenance',
       tagline: 'Reliable weekly & seasonal garden care',
       description: 'Scheduled visits keeping your beds weed-free, shrubs trimmed, perennials deadheaded, and soil properly mulched.',
-      image: '/garden-maintenance.jpg',
+      image: `${import.meta.env.BASE_URL}garden-maintenance.jpg`,
       icon: Clock,
       features: ['Weekly / bi-weekly scheduled care', 'Seasonal spring & fall cleanups', 'Hedge trimming & pruning'],
     },
@@ -82,7 +82,7 @@ const HomePage: React.FC = () => {
       title: 'Tree & Specimen Plant Care',
       tagline: 'Horticultural health & structural pruning',
       description: 'Certified arbor and plant specialists caring for specimen trees, ornamental shrubs, root health, and disease prevention.',
-      image: '/tree-plant-care.jpg',
+      image: `${import.meta.env.BASE_URL}tree-plant-care.jpg`,
       icon: Trees,
       features: ['Formative crown pruning', 'Pest & disease diagnosis', 'Deep-root organic feeding'],
     },
@@ -91,7 +91,7 @@ const HomePage: React.FC = () => {
       title: 'Outdoor Living & Landscaping',
       tagline: 'Comfortable natural outdoor environments',
       description: 'Full-spectrum exterior transformations integrating low-voltage landscape lighting, fire pits, pergolas, and water elements.',
-      image: '/outdoor-living.jpg',
+      image: `${import.meta.env.BASE_URL}outdoor-living.jpg`,
       icon: Home,
       features: ['Warm low-voltage lighting', 'Water features & fountains', 'Custom garden timber structures'],
     },
@@ -113,7 +113,7 @@ const HomePage: React.FC = () => {
       category: 'lawn',
       categoryLabel: 'Lawn Care',
       location: 'Highland Park Estate',
-      image: '/lawn-care.jpg',
+      image: `${import.meta.env.BASE_URL}lawn-care.jpg`,
       duration: 'Ongoing Care'
     },
     {
@@ -122,7 +122,7 @@ const HomePage: React.FC = () => {
       category: 'hardscape',
       categoryLabel: 'Backyard Landscaping',
       location: 'Pinecrest Manor',
-      image: '/landscape-hardscaping.jpg',
+      image: `${import.meta.env.BASE_URL}landscape-hardscaping.jpg`,
       duration: '4 Weeks'
     },
     {
@@ -131,7 +131,7 @@ const HomePage: React.FC = () => {
       category: 'gardens',
       categoryLabel: 'Garden Design',
       location: 'Meadowview Cottage',
-      image: '/english-cottage-garden.jpg',
+      image: `${import.meta.env.BASE_URL}english-cottage-garden.jpg`,
       duration: '2 Weeks'
     },
     {
@@ -149,7 +149,7 @@ const HomePage: React.FC = () => {
       category: 'maintenance',
       categoryLabel: 'Maintenance',
       location: 'Canyon Crest Gardens',
-      image: '/garden-maintenance.jpg',
+      image: `${import.meta.env.BASE_URL}garden-maintenance.jpg`,
       duration: 'Bi-Weekly'
     },
   ];
@@ -204,7 +204,7 @@ const HomePage: React.FC = () => {
         {/* Realistic High-Resolution Landscaping Photography Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/hero-garden.jpg"
+            src={`${import.meta.env.BASE_URL}hero-garden.jpg`}
             alt="Luxury manicured garden and landscape architecture estate"
             className="w-full h-full object-cover object-center"
             loading="eager"
@@ -348,7 +348,7 @@ const HomePage: React.FC = () => {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden shadow-medium border-4 border-white">
                 <img
-                  src="/master-craftsmanship.jpg"
+                  src={`${import.meta.env.BASE_URL}master-craftsmanship.jpg`}
                   alt="Professional horticulturist tending to nursery plants"
                   className="w-full h-[420px] object-cover"
                   loading="lazy"

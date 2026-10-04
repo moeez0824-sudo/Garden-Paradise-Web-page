@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-4 space-y-4">
             <Link to="/" className="flex items-center space-x-3 group">
               <img 
-                src="/logo.jpg" 
+                src={`${import.meta.env.BASE_URL}logo.jpg`} 
                 alt="Garden Paradise Logo" 
                 className="w-10 h-10 rounded-full object-cover shadow-md ring-1 ring-amber-400/40 group-hover:scale-105 transition-transform duration-300" 
               />

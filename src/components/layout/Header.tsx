@@ -92,7 +92,7 @@ const Header: React.FC = () => {
           {/* Brand Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <img 
-              src="/logo.jpg" 
+              src={`${import.meta.env.BASE_URL}logo.jpg`} 
               alt="Garden Paradise Logo" 
               className="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-cover shadow-sm ring-1 ring-amber-500/40 group-hover:scale-105 transition-transform duration-300" 
             />
