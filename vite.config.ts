@@ -16,7 +16,7 @@ const copy404Plugin = (): Plugin => ({
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Garden-Paradise-/',
+  base: '/Garden-Paradise-Web-page/',
   plugins: [react(), copy404Plugin()],
   build: {
     target: 'esnext',

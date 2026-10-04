@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://moeez0824-sudo.github.io/Garden-Paradise-",
+  "homepage": "https://moeez0824-sudo.github.io/Garden-Paradise-Web-page",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
